@@ -45,7 +45,20 @@ python app/unemployment.py
 python -m app.unemployment
 ```
 
+Stocks report:
+## Usage
 
+Unemployment report:
+
+```sh
+python -m app.unemployment
+```
+
+Stocks report:
+
+```sh
+python -m app.stocks
+```
 
 
 

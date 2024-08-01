@@ -3,7 +3,6 @@ print ("Hello from our unemployement report")
 # IMPORTS
 
 # modules (don't need installation)
-import os
 import json
 from pprint import pprint
 from statistics import mean
@@ -15,9 +14,7 @@ from plotly.express import line
 
 # ENVIRONMENT VARIABLE RELATED CODE:
 
-load_dotenv()
-
-API_KEY = os.getenv("ALPHAVANTAGE_API_KEY", default="demo")
+from app.alpha import API_KEY
 
 # UNEMPLOYMENT REPORT FUNCTIONALITY
 
